@@ -453,7 +453,7 @@ color:white;
 
 
 }
-.footer-col h4{
+.h4{
     color:#fff;
     top:0;
     margin:20px 20px;
@@ -477,4 +477,178 @@ color:white;
     height:20px;
     width:30px;
 
+}
+@media screen and (max-width: 480px) {
+
+    #nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+      
+    }
+
+    
+    .style{
+   
+        margin-left: 20px;
+        height:70vh;
+        width:100%;
+        
+    
+    }
+
+    .style> :nth-child(1) {
+        font-size: 22px;
+    }
+
+    .style> :nth-child(2) {
+        font-size: 20px;
+    }
+
+    .style> :nth-child(3) {
+        font-size: 15px;
+    }
+
+    .button {
+        
+        display: block;
+    }
+    #container input{
+        height: 40px;
+    width: 260px;
+    margin-top:10px;
+    
+
+    }
+    #container button{
+        height: 50px;
+        width: 150px;
+        margin-left: 60px;
+        
+    }
+    section.first>div :nth-child(1) {
+        font-size: 34px;
+        font-weight: bolder;
+        margin-left: 30px;
+    }
+    
+    
+    section.first>div :nth-child(2) {
+        font-size: 20px;
+        margin-left: 30px;
+    
+    }
+    
+    
+
+    
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+ 
+.secimg img {
+    width: 305px;
+    position: relative;
+    z-index: 10;
+
+}
+
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 305px;
+}
+.page6{
+    height:250vh;
+
+}
+.page6 h2{
+    font-size: 30px;
+   
+    font-weight: 800;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.faq{
+height:70vh;
+width:100vh;
+
+
+}
+.span{
+    height:10vh;
+    width:66vh;
+    background-color:rgb(30, 25, 25) ;
+    margin-left: -220px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+color:white;
+
+
+}
+#part{
+    
+    margin-left: 10px;
+    font-size: 20px;
+   
+
+}
+.but input{
+    height: 50px;
+    width: 250px;
+   margin-left: 40px;
+
+
+}
+.but button{
+    height: 55px;
+    width: 150px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+   
+}
+.page7{
+    width:100%;
+    height:88vh;
+    margin-left: -20px;
+
+
+}
+ .h4{
+    
+    margin-left:100px;
+    font-size: 20px;
+    margin-top: -250px;
+}
+.footer-col a{
+    display:block;
+
+    
+    font-size: 20px;
+    
+
+}
+.footer-col li{
+    list-style: none;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.container{
+    margin-left: 150px;
+   
+}
+.row{
+    margin-bottom:60px;
+}
 }
