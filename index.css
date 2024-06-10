@@ -478,7 +478,7 @@ color:white;
     width:30px;
 
 }
-@media screen and (max-width: 480px ) {
+@media screen and (max-width: 400px ) {
 
     #nav{
         max-width: 90vw;
@@ -645,7 +645,7 @@ color:white;
     margin-right: 5px;
 }
 .container{
-    margin-left: 220px;
+    margin-left: 200px;
    
 }
 .row{
